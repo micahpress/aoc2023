@@ -1,0 +1,8 @@
+services:
+    dev:
+        build: .
+        container_name: test
+        tty: true
+        volumes:
+          - $PWD:/workspace
+

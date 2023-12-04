@@ -1,0 +1,6 @@
+Day 3:
+could try keeping a set of the coordinates of all symbols
+find numbers by regexing each string and running a findAll, use the range property to calculate the adjacent coordinates
+iterate over the adjacent coords to see if any appear in the symbol coord set
+wouldn't have to iterate over the input twice if I store the match results in a list or something
+
