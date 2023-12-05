@@ -14,7 +14,7 @@ class Day3Test() {
         assertEquals(listOf("233", "4367"), actualResults.map { it.value }.toList())
 
         actualResults = SYMBOL_REGEX.findAll(searchString)
-        assertEquals(listOf(7, 10, 15, 17), actualResults.map { it.range.start }.toList().also { println(it) })
+        assertEquals(listOf(7, 10, 15, 17), actualResults.map { it.range.start }.toList())
         assertEquals(listOf("*", "$", "#", "%"), actualResults.map { it.value }.toList())
     }
 }
