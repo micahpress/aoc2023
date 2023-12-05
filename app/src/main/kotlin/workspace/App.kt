@@ -5,10 +5,13 @@ package workspace
 
 import workspace.day1.Day1Solver
 import workspace.day2.Day2Solver
+import workspace.day3.Day3Solver
 
 fun main() {
     // println(Day1Solver().part1())
     // println(Day1Solver().part2())
     // println(Day2Solver().part1())
     // println(Day2Solver().part2())
+    // println(Day3Solver().part1())
+    // println(Day3Solver().part2())
 }
