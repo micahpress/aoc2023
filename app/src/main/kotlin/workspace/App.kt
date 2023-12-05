@@ -6,6 +6,7 @@ package workspace
 import workspace.day1.Day1Solver
 import workspace.day2.Day2Solver
 import workspace.day3.Day3Solver
+import workspace.day4.Day4Solver
 
 fun main() {
     // println(Day1Solver().part1())
@@ -14,4 +15,6 @@ fun main() {
     // println(Day2Solver().part2())
     // println(Day3Solver().part1())
     // println(Day3Solver().part2())
+    // println(Day4Solver().part1())
+    // println(Day4Solver().part2())
 }
