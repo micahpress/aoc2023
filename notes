@@ -1,3 +1,9 @@
+Day 4:
+get the set difference of winning minus gotten
+drop size < 1
+map each set to 2^(size - 1)
+sum those
+
 Day 3:
 could try keeping a set of the coordinates of all symbols
 find numbers by regexing each string and running a findAll, use the range property to calculate the adjacent coordinates
