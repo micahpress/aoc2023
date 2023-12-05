@@ -7,6 +7,7 @@ import workspace.day1.Day1Solver
 import workspace.day2.Day2Solver
 import workspace.day3.Day3Solver
 import workspace.day4.Day4Solver
+import workspace.day5.Day5Solver
 
 fun main() {
     // println(Day1Solver().part1())
@@ -17,4 +18,6 @@ fun main() {
     // println(Day3Solver().part2())
     // println(Day4Solver().part1())
     // println(Day4Solver().part2())
+    // println(Day5Solver().part1())
+    // println(Day5Solver().part2()) // takes 8.5 minutes to run
 }
