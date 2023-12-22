@@ -1,3 +1,6 @@
 #!/bin/bash
 
-docker build . --tag aoc2023-dev
+docker build . --tag aoc2023-dev --build-arg username=$USER --build-arg userid=$UID
+
+docker image prune
+
