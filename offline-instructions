@@ -1,0 +1,5 @@
+Day 8:
+Part 1:
+  The input is a directional instruction sequence (right child or left child) and a graph.
+  Start at AAA and go to ZZZ following the instructions. Count the number of steps.
+  Each decision is one step.
