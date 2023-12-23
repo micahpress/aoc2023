@@ -8,13 +8,20 @@
 		"kotlin.java.home": "/usr/bin/java",
 		"java.compile.nullAnalysis.mode": "automatic",
 		"java.configuration.updateBuildConfiguration": "automatic",
+		"vim.handleKeys": {
+			"<C-d>": true,
+			"<C-s>": false,
+			"<C-z>": false,
+			"<C-p>": false
+		}
 	},
 	"extensions": {
 		"recommendations": [
 			"fwcd.kotlin",
 			"ms-azuretools.vscode-docker",
 			"vscjava.vscode-gradle",
-			"vscjava.vscode-java-pack"
+			"vscjava.vscode-java-pack",
+			"vscodevim.vim"
 		]
 	}
 }
