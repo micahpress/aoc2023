@@ -10,6 +10,9 @@ import workspace.day4.Day4Solver
 import workspace.day5.Day5Solver
 import workspace.day6.Day6Solver
 import workspace.day7.Day7Solver
+import workspace.day8.Day8Solver
+import workspace.util.factor
+import workspace.util.mergeButTake
 
 fun main() {
     // println(Day1Solver().part1())
@@ -25,6 +28,7 @@ fun main() {
     // println(Day6Solver().part1())
     // println(Day6Solver().part2())
     // println(Day7Solver().part1())
-    println(Day7Solver().part2("/workspace/inputs/day7.txt.test"))
-    println(Day7Solver().part2())
+    // println(Day7Solver().part2())
+    // println(Day8Solver().part1())
+    // println(Day8Solver().part2())
 }
