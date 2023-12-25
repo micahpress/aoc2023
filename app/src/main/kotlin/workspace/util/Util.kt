@@ -53,3 +53,35 @@ fun <K, V> Map<K, V>.mergeButTake(other: Map<K, V>, takeFunction: (key: K, v1: V
     }
     return mergedMap.toMap()
 }
+
+fun getAdjacentCoords(coords: Pair<Int, Int>): Set<Pair<Int, Int>> {
+    return setOf(
+        Pair(coords.first - 1, coords.second),
+        Pair(coords.first + 1, coords.second),
+        Pair(coords.first, coords.second - 1),
+        Pair(coords.first, coords.second + 1)
+    )
+}
+
+fun getSurroundingCoords(coords: Pair<Int, Int>): Set<Pair<Int, Int>> {
+    return setOf(
+        Pair(coords.first - 1, coords.second - 1),
+        Pair(coords.first - 1, coords.second),
+        Pair(coords.first - 1, coords.second + 1),
+        Pair(coords.first, coords.second - 1),
+        Pair(coords.first, coords.second + 1),
+        Pair(coords.first + 1, coords.second - 1),
+        Pair(coords.first + 1, coords.second),
+        Pair(coords.first + 1, coords.second + 1)
+    )
+}
+
+fun Coord.plus(other: Pair<Int, Int>): Pair<Int, Int> {
+    return Pair(this.first + other.first, this.second + other.second)
+}
+
+fun Coord.times(other: Pair<Int, Int>): Pair<Int, Int> {
+    return Pair(this.first * other.first, this.second * other.second)
+}
+
+typealias Coord = Pair<Int, Int>

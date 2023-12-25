@@ -12,6 +12,7 @@ import workspace.day6.Day6Solver
 import workspace.day7.Day7Solver
 import workspace.day8.Day8Solver
 import workspace.day9.Day9Solver
+import workspace.day10.Day10Solver
 
 fun main() {
     // println(Day1Solver().part1())
@@ -32,4 +33,6 @@ fun main() {
     // println(Day8Solver().part2())
     // println(Day9Solver().part1())
     // println(Day9Solver().part2())
+    // println(Day10Solver().part1())
+    // println(Day10Solver().part2())
 }

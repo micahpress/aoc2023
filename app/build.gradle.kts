@@ -53,3 +53,7 @@ tasks.withType<Test> {
         this.showStandardStreams = true
     }
 }
+
+tasks.withType<JavaExec>() {
+    standardInput = System.`in`
+}
